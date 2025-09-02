@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    margin: 40px;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 300px;
+    height: 300px;
+    display: block;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-info h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    left: 60px;
+    position: relative;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    left: 90px;
+    position: relative;
+    color: #202020;
+  }
+  
+  /* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+  .logo {
+    float: left;
+    margin: 0;
+    color: yellow;
+  }
+  
+  .nav-links {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: yellow;
+  }
+  
+ .product button{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    left: 90px;
+    position: relative;
+    font-size: 20px;
+    box-shadow: #333;
+    border-color: black;
+  }
+
+  .product button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+  }
+  
+span{
+    color: #fff;
+}
+
+#pesquisa{
+    background-color: yellow;
+    color: black;
+    box-shadow: #333;
+    border-radius: 20px;
+    font-size: 15px;
+}
+  
+  /* Product showcase styles (copied from the previous example) */
+  /* ... */
+  
